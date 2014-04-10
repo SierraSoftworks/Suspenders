@@ -1,0 +1,27 @@
+﻿{
+	"name": "suspenders",
+	"description": "Asynchronous remote function call framework built on top of SockJS",
+	"version": "1.0.0",
+	"author": "Sierra Softworks <admin@sierrasoftworks.com>",
+	"homepage": "https://sierrasoftworks.com/suspenders",
+	"repository": "https://github.com/SierraSoftworks/Suspenders",
+	"licence": "MIT",
+
+	"lib": "lib/Suspender.js",
+
+	"scripts": {
+		"test": "mocha"
+	},
+
+	"devDependencies": {
+		"mocha": "*",
+		"should": "*"
+	},
+
+	"keywords": [
+		"sockjs",
+		"websocket",
+		"RPC",
+		"asynchronous"
+	]
+}
