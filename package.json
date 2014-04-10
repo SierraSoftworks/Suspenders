@@ -1,7 +1,7 @@
 ﻿{
 	"name": "suspenders",
 	"description": "Asynchronous remote function call framework built on top of SockJS",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Sierra Softworks <admin@sierrasoftworks.com>",
 	"homepage": "https://sierrasoftworks.com/suspenders",
 	"repository": "https://github.com/SierraSoftworks/Suspenders",
