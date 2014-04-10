@@ -45,11 +45,11 @@
 
                 if(message.r) message.a.push((function() {
                     var args = Array.prototype.slice.call(arguments, 0);
-                    args.push(message.r);
+                    args.unshift(message.r);
                     this.call.apply(this, args);
                 }).bind(this));
         
-                if(handler.length < message.a.length) {
+                if(handler.length < message.a.length && typeof message.a[message.a.length - 1] == 'function') {
                     var done = message.a.pop();
                     try {
                         done(handler.apply(this, message.a));
@@ -124,4 +124,4 @@
     }
     
     return Suspender;
-});
+})();
